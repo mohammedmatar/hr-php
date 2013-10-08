@@ -24,7 +24,7 @@ end
 put '/api/movies/:id' do
   body = JSON.parse request.body.read
   movie ||= Movie.get(params[:id]) || halt(404)
-  movie.update(
+  halp 500 unless movie.update(
     title:    body['title'],
     director: body['director'],
     synopsis: body['synopsis'],
@@ -35,5 +35,5 @@ end
 
 delete '/api/movies/:id' do
   movie ||= Movie.get(params[:id]) || halt(404)
-  movie.destroy
+  halt 500 unless movie.destroy
 end
