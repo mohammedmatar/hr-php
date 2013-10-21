@@ -5,18 +5,11 @@ module Sinatra
   module ResponseFormat
     def format_response(data, accept)
       accept.each do |type|
-        case type.downcase
-        when 'text/xml'
-          return data.to_xml
-        when 'application/json'
-          return data.to_json
-        when 'text/x-yaml'
-          return data.to_yaml
-        when 'text/csv'
-          return data.to_csv
-        else
-          return data.to_json
-        end
+        return data.to_xml  if type.downcase.eql? 'text/xml'
+        return data.to_json if type.downcase.eql? 'application/json'
+        return data.to_yaml if type.downcase.eql? 'text/x-yaml'
+        return data.to_csv  if type.downcase.eql? 'text/csv'
+        return data.to_json
       end
     end
   end
