@@ -12,6 +12,8 @@ module Sinatra
           return data.to_json
         when 'text/x-yaml'
           return data.to_yaml
+        when 'text/csv'
+          return data.to_csv
         else
           return data.to_json
         end
