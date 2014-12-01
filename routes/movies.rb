@@ -37,3 +37,7 @@ delete '/api/movies/:id' do
   movie ||= Movie.get(params[:id]) || halt(404)
   halt 500 unless movie.destroy
 end
+
+options '/api/movies' do
+  '*'
+end
