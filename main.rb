@@ -10,17 +10,17 @@ configure :development do
   DataMapper::Logger.new($stdout, :debug)
   DataMapper.setup(
     :default,
-    'postgres://postgres:12345@localhost/sinatra_service'
+    'mysql://root@localhost/hr_new'
   )
 end
 
-configure :production do
-  enable :cross_origin
-  DataMapper.setup(
-    :default,
-    'postgres://postgres:12345@localhost/sinatra_service'
-  )
-end
+# configure :production do
+#   enable :cross_origin
+#   DataMapper.setup(
+#     :default,
+#     'postgres://postgres:12345@localhost/sinatra_service'
+#   )
+# end
 
 require './models/init'
 require './helpers/init'
