@@ -1,0 +1,83 @@
+/* --------------------------------------------------------------------------------------------- */
+/*                                                                                               */
+/* For the full range of options and parameter meanings please see:-                             */
+/*                                                                                               */
+/* http://www.jpowered.com/php-scripts/adv-graph-chart/documentation/configurationOptions.htm    */
+/*                                                                                               */
+/* --------------------------------------------------------------------------------------------- */
+
+width:  700
+height: 450
+
+quality:           medium
+
+backgroundcolor:   white
+
+grid:              true
+axis:              true
+3d:                false
+depth3d:           10
+ndecplaces:        0
+hspace:            100
+thousandseparator: ,
+barwidth:          25
+barspacing:        1
+
+chartstartx:       0
+chartscale:        20000
+
+series1:           #BB4040|Product X
+
+gridbgcolor:       #772D2D
+axiscolor:         #AA4040
+floorcolor:        #FFB0B0
+gridcolor:         #AA4040
+gridstyle:         dotted
+
+titletext:         Product Sales by Month
+titlefont:         Arial
+titlefontsize:     12
+titlefontbold:     true
+titlefontitalic:   false
+titlecolor:        #444444
+titleposition:     -1,50
+
+
+ytitletext:        Month
+ytitlefont:        Arial
+ytitlefontsize:    11
+ytitlefontbold:    true
+ytitlefontitalic:  false
+ytitlecolor:       #444444
+
+xtitletext:        Value
+xtitlefont:        Arial
+xtitlefontsize:    11
+xtitlefontbold:    true
+xtitlefontitalic:  false
+xtitlecolor:       #444444
+
+xlabelfont:        Arial
+xlabelfontsize:    10
+xlabelfontbold:    false
+xlabelfontitalic:  false
+xlabelpre:        $
+
+
+ylabels:           January|February|March|April|May|June|July|August|September|October|November|December|
+ylabelcolor:       #444444
+ylabelfont:        Arial
+ylabelfontsize:    9
+ylabelfontbold:    false
+ylabelfontitalic:  false
+
+legend:            true
+legendstyle:       horizontal
+legendbgcolor:     #FFFFFF
+legendbordercolor: #FFFFFF
+legendtextcolor:   #444444
+legendtitle: 
+legendfont:        Arial
+legendfontsize:    10
+legendfontbold:    false
+legendfontitalic:  true

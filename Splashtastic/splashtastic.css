@@ -1,0 +1,171 @@
+
+
+body {
+margin: 0 auto;
+padding: 0;
+font: 76% Arial,sans-serif;
+background: #fff;
+}
+
+#wrap {
+background: #FFFCEB;
+color: #303030;
+margin: 0 auto;
+width: 760px;
+}
+
+#header {
+margin: 30px 0 0 0;
+width: 760px;
+padding: 0;
+}
+
+#title {
+float: left;
+margin: 0 0 0 0;
+padding: 0;
+}
+
+#title h1 {
+margin: 0 0 0 0;
+font-weight: 400;
+font-size: 3.0em;
+width: 400px;
+float: left;
+color: #33cc33;
+}
+
+#title h2 {
+clear: left;
+float: left;
+margin: 0 0 0 0;
+font-size: 1.2em;
+font-weight: 400;
+width: 400px;
+color: #999999;
+}
+
+#sub {
+clear: left;
+margin: 72px 0 0 0;
+width: 760px;
+padding: 0;
+}
+
+#content {
+clear: left;
+position: absolute;
+width: 497px;
+margin: 0 263px 0 0;
+padding: 0;
+background: #ffffff;
+color: #999999;
+}
+
+#bar {
+margin: 30px 0 0 0;
+width: 760px;
+height: 300px;
+padding: 0;
+float : left;
+}
+
+.frontphoto {
+margin: 0 0 0 0;
+border: 0;
+float: left;
+}
+
+#menu {
+float: right;
+width: 248px;
+margin: 0 0 0 0;
+padding: 0;
+font-size: 0.9em;
+}
+
+#menu ul {	
+font-weight: 550;
+list-style: none;
+width: 248px;
+margin: 0 0 0 0;
+padding: 0;
+font-size: 1.6em;
+}	
+
+#menu li {
+margin-bottom: 1px;
+}
+
+#menu li a {
+height: 69px;
+text-decoration: none;
+color: #FFFFFF;
+display: block;
+padding: 5px 3px 0 5px;
+background: #bbbbbb;
+line-height: 1.0em;
+}	
+	
+#menu li a:hover {
+background: #339EEB;
+color: #FFFFFF;
+}
+
+#menu small {
+padding: 0;
+margin: 0 0 0 0;
+font-weight: 400;
+font-size: 0.7em;
+color: #bbbbbb;
+}
+
+#news {
+margin: 0 258px 0 250px;
+min-height: 285px;
+max-height: auto;
+padding: 5px 10px 10px 10px;
+background: #eaeaea;
+color: #777777;
+visibility: visible;
+}
+
+#news h1 {
+margin: 0 0 0 0;
+padding: 0 0 6px 0;
+font-size: 1.1em;
+color: #33cc33;
+font-weight: 600;
+}
+
+#news h2 {
+margin: 0 0 0 0;
+padding: 10px 0 6px 0;
+font-size: 1.1em;
+color: #777777;
+font-weight: 600;
+}
+
+a {
+text-decoration: none;
+color: #339EEB;
+}
+
+a:hover {
+color: #99c9ff;
+}
+
+a.links {
+display: block; 
+margin: 2px 0 0 0;
+}
+
+.hide {
+display: none;
+}
+
+.subphoto {
+margin: 0 0 20px 0;
+border: 0;
+float: left;
+}

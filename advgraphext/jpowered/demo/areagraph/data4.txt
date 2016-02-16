@@ -1,0 +1,34 @@
+data1series1:   5
+data2series1:   11
+data3series1:   35
+data4series1:   8
+data5series1:   21
+data6series1:   24
+data7series1:   17
+data8series1:   19
+data9series1:   32
+data10series1:  33
+
+data1series2:   25
+data2series2:   11
+data3series2:   15
+data4series2:   22
+data5series2:   60
+data6series2:   43
+data7series2:   55
+data8series2:   49
+data9series2:   40
+data10series2:  45
+
+data1series3:   10
+data2series3:   15
+data3series3:   12
+data4series3:   5
+data5series3:   7
+data6series3:   3
+data7series3:   7
+data8series3:   8
+data9series3:   4
+data10series3:  9
+
+

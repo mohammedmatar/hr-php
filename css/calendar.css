@@ -1,0 +1,78 @@
+.body {
+font-family: Verdana;
+background-color : #ACACAC;;
+}
+
+.tr {
+background-color : #ACACAC;
+}
+
+.th {
+font-family: Verdana;
+}
+
+a.buttonbar:link, a.buttonbar:visited {
+  font-size        : 9px;
+  padding-top      : 1px;
+  padding-bottom   : 1px;
+  text-decoration  : none;
+  background-color : #ACACAC;
+  color            : #FFFFFF
+}
+a.buttonbar:hover {
+  padding-top      : 1px;
+  padding-bottom   : 1px;
+  background-color : #CCCCCC;
+  color            : #FFFFFF
+}
+.normal {
+font-family: Verdana;
+font-size: 8pt;
+color: #000000;
+}
+.today {
+font-family: Verdana;
+font-size: 8pt;
+font-weight:bold;
+color:#000066;
+background-color: #CACACA;
+}
+.weekend {
+font-family: Verdana;
+font-size: 8pt;
+color:#000000;
+}
+.selected {
+font-family: Verdana;
+font-size: 8pt;
+color: #FFFFFF;
+background-color: #C00000;
+}
+.event {
+font-family: Verdana;
+font-size: 8pt;
+color: #000000;
+background-color: #C6D1DC;
+}
+.head {
+color:#CCCCCC;
+font:Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:500;
+background-color:#000066;
+}
+.title {
+color:#000066;
+font:Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:bold;
+}
+.button {
+  font-family      : Verdana, Arial, Helvetica, sans-serif;
+  font-style       : normal;
+  font-weight      : bold;
+  font-size        : 10px;
+  color            : #000000;
+  background-color : #F0F0F0;
+  border           : 1px solid #000066;
+}

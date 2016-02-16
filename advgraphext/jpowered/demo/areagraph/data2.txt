@@ -1,0 +1,5 @@
+data1series1:   800
+data2series1:   750
+data3series1:   350
+data4series1:   200
+data5series1:   250

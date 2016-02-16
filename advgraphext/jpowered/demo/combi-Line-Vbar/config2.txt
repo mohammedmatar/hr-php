@@ -1,0 +1,88 @@
+/* --------------------------------------------------------------------------------------------- */
+/*                                                                                               */
+/* For the full range of options and parameter meanings please see:-                             */
+/*                                                                                               */
+/* http://www.jpowered.com/php-scripts/adv-graph-chart/documentation/configurationOptions.htm    */
+/*                                                                                               */
+/* --------------------------------------------------------------------------------------------- */
+
+width:  700
+height: 400
+
+series1:           bar|orange|Product X|
+series2:           line|#993399|Team A|10|box|true|solid
+
+linewidth:         2
+transparency:      30
+
+outline:           true
+gradientfill:      true
+backgroundcolor:   white
+
+grid:              true
+axis:              true
+3d:                true
+depth3d:           20
+vspace:            25
+nrows:             10
+ndecplaces:        0
+barwidth:          75
+barspacing:        20
+
+gridbgcolor:       #88BBFF
+axiscolor:         #5F81B3
+floorcolor:        #E1EDFF
+gridcolor:         #5F81B3
+gridstyle:         dotted
+
+titletext:         Total Score for the Season
+titlefont:         Arial
+titlefontsize:     12
+titlefontbold:     true
+titlefontitalic:   false
+titlecolor:        #5F81B3
+titleposition:     -1,50
+
+
+xtitletext:        Player
+xtitlefont:        Arial
+xtitlefontsize:    11
+xtitlefontbold:    true
+xtitlefontitalic:  false
+xtitlecolor:       #5F81B3
+
+ytitletext:        Score
+ytitlefont:        Arial
+ytitlefontsize:    11
+ytitlefontbold:    true
+ytitlefontitalic:  false
+ytitlecolor:       #5F81B3
+
+xlabels:           John|Robert|Janice|Alf|Susan|
+xlabelorientation: Down Angle
+xlabeloffset:      0
+xlabelfont:        Arial
+xlabelfontsize:    10
+xlabelfontbold:    false
+xlabelfontitalic:  false
+xlabelcolor:       #5F81B3
+
+ylabels:           true
+ylabelfont:        Arial
+ylabelfontsize:    9
+ylabelfontbold:    false
+ylabelfontitalic:  false
+ylabelcolor:       #5F81B3
+ylabelpost:        pts 
+
+y2labelfont:       Arial
+y2labelfontsize:   9
+y2labelfontbold:   false
+y2labelfontitalic: false
+y2labelcolor:      #5F81B3
+
+legend:            false
+legendfont:        Arial
+legendfontsize:    10
+legendfontbold:    false
+legendfontitalic:  true

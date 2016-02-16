@@ -1,0 +1,24 @@
+div.menu2
+{
+    /*width:500px;margin:0 auto;*//*Uncomment this line to make the menu center-aligned.*/
+    text-align:left;
+    background-image: url(v.jpg);
+    border:1px solid black;
+    font-size:0;
+}
+
+div.menu2 a
+{
+    display: inline-block;
+    padding: 0 20px;
+    background-image: url(d.jpg);
+    color:White;
+    text-decoration:none;
+    font: bold 12px Arial;
+    line-height: 32px;
+}
+
+div.menu2 a:hover, div.menu2 a.current
+{
+    background-position:0 -60px;
+}

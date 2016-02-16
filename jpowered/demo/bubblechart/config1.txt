@@ -1,0 +1,83 @@
+/* --------------------------------------------------------------------------------------------- */
+/*                                                                                               */
+/* For the full range of options and parameter meanings please see:-                             */
+/*                                                                                               */
+/* http://www.jpowered.com/php-scripts/adv-graph-chart/documentation/configurationOptions.htm    */
+/*                                                                                               */
+/* --------------------------------------------------------------------------------------------- */
+
+width:  700
+height: 400
+
+series1:           red|Product X|left|8|triangle|true|solid|
+
+quality:           medium 
+transparency:      70
+maxbubblesize:     80
+
+backgroundcolor:   black
+
+grid:              true
+axis:              true
+ndecplaces:        0
+thousandseparator: ,
+displayvalues:     true
+
+chartStartY:       0
+chartStartX:       0
+chartscale:        80000
+chartscaleX:       20000
+
+gridbgcolor:       #000055
+axiscolor:         dark grey
+floorcolor:        light gray
+gridcolor:         grey
+gridstyle:         dotted
+
+titletext:         Sales vs Downloads
+titleposition:     -1,50
+titlefont:         Arial
+titlefontsize:     12
+titlefontbold:     true
+titlefontitalic:   false
+titlecolor:        #80FF80
+
+xtitletext:        Number of Downloads
+xtitlefont:        Arial
+xtitlefontsize:    11
+xtitlefontbold:    true
+xtitlefontitalic:  false
+xtitlecolor:       #80FF80
+
+ytitletext:        Value of Sales
+ytitlefont:        Arial
+ytitlefontsize:    11
+ytitlefontbold:    true
+ytitlefontitalic:  false
+ytitlecolor:       #80FF80
+
+xlabelcolor:       #80FF80
+xlabelfont:        Arial
+xlabelfontsize:    10
+xlabelfontbold:    true
+xlabelfontitalic:  false
+
+ylabels:           true
+ylabelfont:        Arial
+ylabelfontsize:    10
+ylabelfontbold:    true
+ylabelfontitalic:  false
+ylabelcolor:       #80FF80
+ylabelpre:         $
+ylabelpost: 
+
+legend:            true
+legendstyle:       horizontal
+legendbgcolor:     #EEEEEE
+legendbordercolor: #CCCCFF
+legendtextcolor:   #8080B0
+legendtitle: 
+legendfont:        Arial
+legendfontsize:    10
+legendfontbold:    false
+legendfontitalic:  true

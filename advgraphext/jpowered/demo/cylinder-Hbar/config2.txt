@@ -1,0 +1,77 @@
+/* --------------------------------------------------------------------------------------------- */
+/*                                                                                               */
+/* For the full range of options and parameter meanings please see:-                             */
+/*                                                                                               */
+/* http://www.jpowered.com/php-scripts/adv-graph-chart/documentation/configurationOptions.htm    */
+/*                                                                                               */
+/* --------------------------------------------------------------------------------------------- */
+
+width:  700
+height: 400
+
+quality:           medium
+
+backgroundcolor:   white
+
+grid:              true
+axis:              true
+vspace:            30
+nrows:             10
+ndecplaces:        0
+barwidth:          40 
+barspacing:        10
+
+chartscale:        100
+chartstarty:       0
+
+series1:           orange|Product X
+
+gridbgcolor:       #00CC80
+gridbgcolor2:      #00EEA0
+axiscolor:         dark green
+floorcolor:        #00CC80
+gridcolor:         dark green
+gridstyle:         dotted
+
+
+titletext:         Total Score for the Season
+titlefont:         Arial
+titlefontsize:     12
+titlefontbold:     true
+titlefontitalic:   false
+titlecolor:        #444444
+titleposition:     -1,50
+
+
+ytitletext:        Player
+ytitlefont:        Arial
+ytitlefontsize:    11
+ytitlefontbold:    true
+ytitlefontitalic:  false
+ytitlecolor:       #444444
+
+xtitletext:        Score
+xtitlefont:        Arial
+xtitlefontsize:    11
+xtitlefontbold:    true
+xtitlefontitalic:  false
+xtitlecolor:       #444444
+
+xlabelfont:        Arial
+xlabelfontsize:    10
+xlabelfontbold:    false
+xlabelfontitalic:  false
+
+
+ylabels:           John|Robert|Janice|Alf|Susan|
+ylabelfont:        Arial
+ylabelfontsize:    9
+ylabelfontbold:    false
+ylabelfontitalic:  false
+ylabelcolor:       #444444
+
+legend: false
+legendfont:        Arial
+legendfontsize:    10
+legendfontbold:    false
+legendfontitalic:  true

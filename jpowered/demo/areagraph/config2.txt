@@ -1,0 +1,82 @@
+/* --------------------------------------------------------------------------------------------- */
+/*                                                                                               */
+/* For the full range of options and parameter meanings please see:-                             */
+/*                                                                                               */
+/* http://www.jpowered.com/php-scripts/adv-graph-chart/documentation/configurationOptions.htm    */
+/*                                                                                               */
+/* --------------------------------------------------------------------------------------------- */
+
+width:  700
+height: 400
+
+series1:           #FF9900|Product X|8|box|false|dotted dashed|
+
+backgroundcolor:   #FFCC80
+
+grid:              true
+axis:              true
+3d:                true
+depth3d:           20
+vspace:            25
+nrows:             10
+ndecplaces:        0
+
+chartscale:        100
+chartstarty:       0
+
+gridbgcolor:       #FFE6BF
+axiscolor:         #B36B00
+floorcolor:        #FFE6BF
+gridcolor:         #B36B00
+gridstyle:         dotted
+
+
+titletext:         Total Score for the Season
+titlefont:         Arial
+titlefontsize:     12
+titlefontbold:     true
+titlefontitalic:   false
+titlecolor:        #24006B
+titleposition:     -1,50
+
+ytitletext:        Score
+ytitlefont:        Arial
+ytitlefontsize:    11
+ytitlefontbold:    true
+ytitlefontitalic:  false
+ytitlecolor:       #24006B
+
+ylabels:           true
+ylabelcolor:       #24006B
+ylabelpost:        pts 
+ylabelfont:        Arial
+ylabelfontsize:    9
+ylabelfontbold:    false
+ylabelfontitalic:  false
+
+xtitletext:        Player
+xtitlefont:        Arial
+xtitlefontsize:    11
+xtitlefontbold:    true
+xtitlefontitalic:  false
+xtitlecolor:       #24006B
+
+xlabels:           John|Robert|Janice|Alf|Susan|
+xlabelorientation: Up Angle
+xlabeloffset:      0
+xlabelfont:        Arial
+xlabelfontsize:    10
+xlabelfontbold:    false
+xlabelfontitalic:  false
+xlabelcolor:       #24006B
+
+legend:            true
+legendstyle:       horizontal
+legendbgcolor:     #FFE6BF
+legendbordercolor: #B36B00
+legendtextcolor:   #24006B
+legendtitle: 
+legendfont:        Arial
+legendfontsize:    10
+legendfontbold:    false
+legendfontitalic:  true

@@ -1,0 +1,100 @@
+<?php 
+session_start();
+///////////////////////////////////////////
+include("config.php");
+include("my_fun.php");
+include('module/paginator.php');
+if(isset($_SESSION["login"])){
+include("module/g_var.php");
+if(empty($_GET["page"]) )			
+header("location: index.php?mnu_id=$_GET[mnu_id]&page=hr.php");
+mysql_query("SET NAMES 'utf8'");
+$rs_title=mysql_query("select *from config_sub_menu where link='".$_GET["page"]."'");
+$title=@mysql_result($rs_title,0,'name');
+
+		$quer ="select name from tb_employee WHERE des_salary <>0 order by name asc";
+		$names = mysql_query($quer);
+		$namesArray = '';
+		$flage = 0;
+		while ($row = mysql_fetch_row($names)) {
+		     $flage = 1;
+			$namesArray .= '"'.$row[0].'",';
+		}
+		if($flage==1){
+			$namesArray = substr($namesArray,0,strlen($namesArray)-1);
+		}
+
+		
+
+
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="rtl">
+<head>
+<!--meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="ar-sa"-->
+<link href="favicon.ico" rel="shortcut icon"/>
+
+<script type="text/javascript" src="js/Calinder/js/jquery/jquery.js"></script>
+<script type="text/javascript" src="js/Calinder/js/jscal2.js"></script>
+<script type="text/javascript" src="js/Calinder/js/lang/en.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/Calinder/css/jscal2.css" />
+<link rel="stylesheet" type="text/css" href="css/Calinder/css/border-radius.css" />
+<link rel="stylesheet" type="text/css" href="css/Calinder/css/steel/steel.css" />
+<link rel="stylesheet" type="text/css" href="css/AutoStyle.css" />
+<link rel="stylesheet" type="text/css" href="css/temp.css" />
+<link rel="stylesheet" type="text/css" href="css/style_pagination.css" />
+
+
+
+<title>نظام شؤون الموظفين</title>
+</head>
+<body>
+	<table border="0" width="100%" id="table1" align="center" dir="rtl">
+		<tr>
+			<td colspan="2"s><?php include("header.php"); ?></td>
+		</tr>
+		<tr>
+			<td bgcolor="#244893" width="18%" align="center">
+			<b><font size="5" color="#FFFFFF">نظام شؤون الموظفين<span lang="en-us">
+			</span></font></b></td>
+			<td bgcolor="#244893" width="81%"><?php include("tab.php");?></td>
+		</tr>
+		<tr>
+			<td valign="top" bgcolor="#FFFFCC"><b><font size="5"></font></b></td>
+			<td valign="top" bgcolor="#FFFFCC"><b><font size="5"><?php echo @$title;?></font></b></td>
+		</tr>
+		<table border="0" width="100%" dir="ltr">
+			<tr>
+			<?php if($_GET["page"]!="hr.php" ){ ?>
+			<!--td width="105" align="left" valign="top"><img border="0" src="images/shiaar.png" width="192" height="309"></td-->
+			<?php }?>
+			<td valign="top" align="center" ><span lang="en-us">
+			<?php	if(!empty($_GET["page"]) )	@include("module/$_GET[page]");	?>
+			</span></td>
+			<td valign="top" width="222" class="mazin" dir="rtl">	<?php include("custom_code/alert.php");	
+						$alert = new alert();  
+						if($_REQUEST["mnu_id"]==2)
+							echo $alert->display();
+						include("right_menu.php");
+						?>	</td>
+			</tr>
+		</table>
+		<!--tr>
+			<td colspan="2" valign="top"></td>
+		</tr-->
+		<tr>
+			<td colspan="2" ><hr size="1" color="#999999"><?php include("footer.php");?></td>
+		</tr>
+	</table>
+
+
+</body>
+
+</html>
+<?php
+} 
+else
+header("location: login.php");
+?>

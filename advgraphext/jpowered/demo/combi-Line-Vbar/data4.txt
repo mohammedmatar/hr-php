@@ -1,0 +1,25 @@
+data1series1:   5
+data2series1:   11
+data3series1:   35
+data4series1:   8
+
+data1series2:   82
+data2series2:   60
+data3series2:   43
+data4series2:   55
+
+data1series3:   10
+data2series3:   15
+data3series3:   12
+data4series3:   5
+
+
+data1series4:   20
+data2series4:   25
+data3series4:   22
+data4series4:   25
+
+data1series5:   6
+data2series5:   8
+data3series5:   12
+data4series5:   15

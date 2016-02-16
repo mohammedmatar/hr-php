@@ -1,0 +1,13 @@
+{
+    "name": "hr/api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammed Matar",
+            "email": "mohammedmatar@yandex.com"
+        }
+    ],
+    "require": {
+        "vlucas/bulletphp": "*"
+    }
+}

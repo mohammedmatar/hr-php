@@ -1,0 +1,82 @@
+/* --------------------------------------------------------------------------------------------- */
+/*                                                                                               */
+/* For the full range of options and parameter meanings please see:-                             */
+/*                                                                                               */
+/* http://www.jpowered.com/php-scripts/adv-graph-chart/documentation/configurationOptions.htm    */
+/*                                                                                               */
+/* --------------------------------------------------------------------------------------------- */
+
+width:  700
+height: 400
+
+series1:           #228DDD|Team A|6|triangle|true|solid|
+series2:           #DD2222|Team B|6|diamond|true|solid|
+series3:           #DD8022|Team C|6|box|true|solid|
+
+backgroundcolor:   #222222
+
+grid:              true
+axis:              true
+3d:                false
+depth3d:           5
+ndecplaces:        0
+displayvalues:     false
+
+gridbgcolor:       #CCCCCC
+axiscolor:         dark green
+floorcolor:        green
+gridcolor:         #22DD22
+gridstyle:         dotted
+
+titletext:         Scores by Team per Season
+titlefont:         Arial
+titlefontsize:     12
+titlefontbold:     true
+titlefontitalic:   false
+titlecolor:        #22DD22
+titleposition:     -1,50
+
+ytitletext:        Points
+ytitlefont:        Arial
+ytitlefontsize:    11
+ytitlefontbold:    true
+ytitlefontitalic:  false
+ytitlecolor:       #22DD22
+
+ylabels:           true
+ylabelcolor:       #22DD22
+ylabelpost:        pts 
+ylabelfont:        Arial
+ylabelfontsize:    9
+ylabelfontbold:    false
+ylabelfontitalic:  false
+
+xtitletext:        Season
+xtitlefont:        Arial
+xtitlefontsize:    11
+xtitlefontbold:    true
+xtitlefontitalic:  false
+xtitlecolor:       #22DD22
+
+xlabels:           2000|2001|2002|2003|2004|2005|2006|2007|2008|2009|
+xlabelorientation: Up Angle
+xlabeloffset:      0
+xlabelfont:        Arial
+xlabelfontsize:    10
+xlabelfontbold:    false
+xlabelfontitalic:  false
+xlabelcolor:       #22DD22
+
+legend:            true
+legendstyle:       horizontal
+legendbgcolor:     #000000
+legendbordercolor: #000000
+legendtextcolor:   #FFFFFF
+legendtitle: 
+legendfont:        Arial
+legendfontsize:    10
+legendfontbold:    false
+legendfontitalic:  true
+
+
+

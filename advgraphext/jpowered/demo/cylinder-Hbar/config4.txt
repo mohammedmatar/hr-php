@@ -1,0 +1,86 @@
+/* --------------------------------------------------------------------------------------------- */
+/*                                                                                               */
+/* For the full range of options and parameter meanings please see:-                             */
+/*                                                                                               */
+/* http://www.jpowered.com/php-scripts/adv-graph-chart/documentation/configurationOptions.htm    */
+/*                                                                                               */
+/* --------------------------------------------------------------------------------------------- */
+
+width:  700
+height: 400
+
+quality:           medium
+
+backgroundcolor:   black
+
+grid:              true
+axis:              true
+ndecplaces:        0
+barwidth:          80
+barspacing:        5
+
+chartscale:        20
+chartstarty:       0
+
+series1:           255,80,30|Team A
+series2:           10,122,164|Team B
+series3:           150,90,200|Team C
+
+gridbgcolor:       #9999BB
+gridbgcolor2:      #8888AA
+
+axiscolor:         #444499
+floorcolor:        #444499
+gridcolor:         grey
+gridstyle:         dotted
+
+xlables:           true
+xfont:             medium
+xlabelpost:        pt
+xlabelcolor:       #FFFFFF
+
+titletext:         Scores by Team per Season
+titlefont:         Arial
+titlefontsize:     12
+titlefontbold:     true
+titlefontitalic:   false
+titlecolor:        #FFFFFF
+titleposition:     -1,50
+
+
+ytitletext:        Season
+ytitlefont:        Arial
+ytitlefontsize:    11
+ytitlefontbold:    true
+ytitlefontitalic:  false
+ytitlecolor:       #FFFFFF
+
+xtitletext:        Points
+xtitlefont:        Arial
+xtitlefontsize:    11
+xtitlefontbold:    true
+xtitlefontitalic:  false
+xtitlecolor:       #FFFFFF
+
+xlabelfont:        Arial
+xlabelfontsize:    10
+xlabelfontbold:    false
+xlabelfontitalic:  false
+
+ylabels:           2010
+ylabelfont:        Arial
+ylabelfontsize:    11
+ylabelfontbold:    true
+ylabelfontitalic:  false
+ylabelcolor:       #FFFFFF
+
+legend:            true
+legendstyle:       horizontal
+legendbgcolor:     #000000
+legendbordercolor: #000000
+legendtextcolor:   #FFFFFF
+legendtitle: 
+legendfont:        Arial
+legendfontsize:    10
+legendfontbold:    false
+legendfontitalic:  true
